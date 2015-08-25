@@ -20,27 +20,3 @@ prose:
   siteurl: 'http://rennt.github.io/'
   media: 'media'
   relativeLinks: 'http://rennt.github.io/links.jsonp'
-  metadata:
-    _posts:
-      - name: "layout"
-        field:
-          element: "hidden"
-          value: "post"
-      #- name: "title"
-      #  field:
-      #    element: "text"
-      #    label: "title"
-      - name: "category"
-        field:
-          element: "multiselect"
-          label: "Add Categories"
-          placeholder: "Choose Tags"
-          alterable: true
-          options:
-            - name: "Training"
-              value: "training"
-            - name: "Nutrition"
-              value: "nutrition"
-            - name: "Meditation-Shit"
-              value: "hipster"
-
