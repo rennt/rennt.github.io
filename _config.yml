@@ -19,6 +19,10 @@ prose:
   media: 'media'
   metadata:
     _posts:
+      - name: published
+        field:
+          element: "hidden"
+          value: "true"
       - name: "layout"
         field:
           element: "hidden"
