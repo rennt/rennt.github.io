@@ -14,7 +14,7 @@ github_username:  jekyll
 markdown: kramdown
 
 prose:
-  ignore: ['.gitignore', '_config.yml', 'feed.xml', 'index.html', '_includes', '_layouts', '_sass', 'css']
+  #ignore: ['.gitignore', '_config.yml', 'feed.xml', 'index.html', '_includes', '_layouts', '_sass', 'css']
   siteurl: 'http://rennt.github.io/'
   media: 'media'
   metadata:
