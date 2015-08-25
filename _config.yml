@@ -13,10 +13,43 @@ github_username:  jekyll
 # Build settings
 markdown: kramdown
 
-permalink: pretty
+permalink: /:categories/:title/
 
 prose:
   #ignore: ['.gitignore', '_config.yml', 'feed.xml', 'index.html', '_includes', '_layouts', '_sass', 'css']
   siteurl: 'http://rennt.github.io/'
   media: 'media'
   relativeLinks: 'http://rennt.github.io/links.jsonp'
+  metadata:
+    _posts:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "post"
+      - name: "title"
+        field:
+          element: "text"
+          label: "title"
+      - name: "categories"
+        field:
+          element: "select"
+          label: "Add Category"
+          placeholder: "Choose Category"
+          options:
+            - name: "Article"
+              value: "articles"
+            - name: "Podcast"
+              value: "podcast"
+      - name: "tags"
+        field:
+          element: "multiselect"
+          label: "Add Tags"
+          placeholder: "Choose Tags"
+          alterable: true
+          options:
+            - name: "Training"
+              value: "training"
+            - name: "Nutrition"
+              value: "nutrition"
+            - name: "Meditation Shit"
+              value: "hipster"
