@@ -13,11 +13,13 @@ github_username:  jekyll
 # Build settings
 markdown: kramdown
 
+permalink: pretty
+
 prose:
   #ignore: ['.gitignore', '_config.yml', 'feed.xml', 'index.html', '_includes', '_layouts', '_sass', 'css']
   siteurl: 'http://rennt.github.io/'
   media: 'media'
-  relativeLinks: 'http://prose.github.io/starter/links.jsonp'
+  relativeLinks: 'http://rennt.github.io/links.jsonp'
   metadata:
     _posts:
       - name: "layout"
