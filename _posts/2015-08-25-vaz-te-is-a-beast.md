@@ -1,10 +1,12 @@
 ---
 layout: post
 categories: articles
-tags: null
-published: false
+tags: 
+  - "null"
+published: true
 title: Vaz Te Is A Beast
 ---
+
 
 ## A New Post
 
