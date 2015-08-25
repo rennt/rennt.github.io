@@ -27,3 +27,17 @@ prose:
         field:
           element: "text"
           label: "title"
+      - name: "category"
+        field:
+          element: "multiselect"
+          label: "Add Categories"
+          placeholder: "Choose Tags"
+          alterable: true
+          options:
+            - name: "Food Story"
+              value: "galerie"
+            - name: "Aktuelles"
+              value: "news"
+            - name: "Presse"
+              value: "presse"
+
