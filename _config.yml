@@ -17,6 +17,7 @@ prose:
   #ignore: ['.gitignore', '_config.yml', 'feed.xml', 'index.html', '_includes', '_layouts', '_sass', 'css']
   siteurl: 'http://rennt.github.io/'
   media: 'media'
+  relativeLinks: 'http://rennt.github.io/links.jsonp'
   metadata:
     _posts:
       - name: "layout"
