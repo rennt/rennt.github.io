@@ -8,9 +8,12 @@ title: Vaz Te Is A Beast
 ---
 
 
+
 ## A New Post
 
 ![eagle2.png]({{site.baseurl}}/media/eagle2.png)
+
+> We loved with a love that was more than love
 
 [Google](http://www.google.com)
 
