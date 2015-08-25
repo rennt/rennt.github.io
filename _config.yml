@@ -34,10 +34,10 @@ prose:
           placeholder: "Choose Tags"
           alterable: true
           options:
-            - name: "Food Story"
-              value: "galerie"
-            - name: "Aktuelles"
-              value: "news"
-            - name: "Presse"
-              value: "presse"
+            - name: "Training"
+              value: "training"
+            - name: "Nutrition"
+              value: "nutrition"
+            - name: "Meditation-Shit"
+              value: "hipster"
 
