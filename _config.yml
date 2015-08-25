@@ -14,7 +14,6 @@ github_username:  jekyll
 markdown: kramdown
 
 prose:
-  rooturl: '_posts'
   siteurl: 'http://rennt.github.io/'
   media: 'media'
   metadata:
