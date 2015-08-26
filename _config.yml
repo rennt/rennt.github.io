@@ -10,13 +10,17 @@ url: "http://rennt.github.io" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
 
+# Sitemap gem
+gems:
+  - jekyll-sitemap
+
 # Build settings
 markdown: kramdown
 
 permalink: /:categories/:title/
 
 prose:
-  #ignore: ['.gitignore', '_config.yml', 'feed.xml', 'index.html', '_includes', '_layouts', '_sass', 'css']
+  ignore: ['.gitignore', '_config.yml', 'feed.xml', 'index.html', '_includes', '_layouts', '_sass', 'css']
   siteurl: 'http://rennt.github.io/'
   media: 'media'
   relativeLinks: 'http://rennt.github.io/links.jsonp'
