@@ -12,7 +12,7 @@ title: Vaz Te Is A Beast
 
 ## A New Post
 
-![eagle2.png]({{site.baseurl}}/media/eagle2.png =100x100)
+![eagle2.png]({{site.baseurl}}/media/eagle2.png){:height="36px" width="36px"}
 
 > We loved with a love that was more than love
 
