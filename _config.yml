@@ -15,8 +15,7 @@ gems:
   - jekyll-sitemap
 
 # Build settings
-#markdown: kramdown
-markdown: rdiscount
+markdown: kramdown
 
 permalink: /:categories/:title/
 
